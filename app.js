@@ -1,5 +1,5 @@
 let weather =  {
-    "apiKey":  "e2e8291a837b7163a59b79a297247e2f",
+    apiKey:  "e2e8291a837b7163a59b79a297247e2f",
     fetchWeather: function (city) {
         fetch(
           "https://api.openweathermap.org/data/2.5/weather?q=" +
@@ -51,5 +51,5 @@ let weather =  {
         }
       });
     
-    weather.fetchWeather("Delhi");
+    weather.fetchWeather("London");
    
